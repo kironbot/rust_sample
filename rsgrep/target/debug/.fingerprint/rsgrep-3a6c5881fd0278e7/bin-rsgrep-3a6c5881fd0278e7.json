@@ -1,0 +1,1 @@
+{"rustc":5362242119021711120,"features":"[]","target":3001049846549449415,"profile":15476851525174661106,"path":1036222786711178230,"deps":[["regex v0.2.11","regex",9107055601512974483]],"local":[{"MtimeBased":[[1536757511,377523622],".fingerprint/rsgrep-3a6c5881fd0278e7/dep-bin-rsgrep-3a6c5881fd0278e7"]}],"rustflags":[],"edition":"Edition2015"}

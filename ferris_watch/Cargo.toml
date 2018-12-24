@@ -1,0 +1,16 @@
+[package]
+name = "ferris_watch"
+version = "0.1.0"
+authors = ["kiron <sgr.araki@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4.6"
+env_logger = "0.6.0"
+failure = "0.1.3"
+clap = "2.32.0"
+#pancurses = {version = "0.16.0", features = ["wide"] }
+ncurses = "5.98.0"
+
+[target.'cfg(not(windows))'.dependencies]
+signal-hook = "0.1.6"
